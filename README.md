@@ -12,3 +12,10 @@ With our knowledge of machine learning and neural networks, we’ll use the feat
 - Variable IS_SUCCESSFUL was considered the target for the model.
 - APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT was considered as the features for the model.
 - The columns EIN and NAME were neither targets nor features, so it was removed from the input data.
+
+### Compiling, Training, and Evaluating the Model
+- The neural hidden layer has 2 neural hidden layers, the first layer has 80 neurons and the second has 30 neurons. The activation function of the first and second hidden layers is "relu" and the activation function of the output layer is "sigmoid".
+
+- 75% of the target could not be reached by the model. According to my model, accuracy was 72%.
+
+- Eliminated the SPECIAL_CONSIDERATIONS, STATUS column and changed the activation function for the three layers to Tanh to see if it performs better than the relu function.
