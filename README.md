@@ -16,9 +16,12 @@ With our knowledge of machine learning and neural networks, we’ll use the feat
 ### Compiling, Training, and Evaluating the Model
 - The neural network has 2 hidden layers, the first layer has 80 neurons and the second has 30 neurons. The activation function of the first and second hidden layers is "relu" and the activation function of the output layer is "sigmoid".
 
-- The model only achieve an accuracy of 73%, couldn't achieve the target model performance of 75%.
+- The model only achieve an accuracy of 72.97%, couldn't achieve the target model performance of 75%.
 
 - Change neurons in hidden layers, add additional hidden layer, change activation function in hidden layers.
 
 ### Summary:
+I tried to optimize the neural network model by increasing neurons in hidden layers, adding additional hidden layers and changing hidden layers' actiovation function.
+the optimized model is not outperforming the original model. But changing the activation function in the hidden layers from "relu" to "sigmoid" did increase the accuracy slightly to 73.12%.
 
+We can try to use a supervised machine learning model such as random forest classifier to solve this classification problem. The random forest model is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance.
