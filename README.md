@@ -7,3 +7,8 @@ With our knowledge of machine learning and neural networks, we’ll use the feat
 
 
 ## Result:
+
+### Data Processing
+- Variable IS_SUCCESSFUL was considered the target for the model.
+- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT was considered as the features for the model.
+- The columns EIN and NAME were neither targets nor features, so it was removed from the input data.
