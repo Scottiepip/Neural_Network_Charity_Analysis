@@ -14,8 +14,11 @@ With our knowledge of machine learning and neural networks, we’ll use the feat
 - The columns EIN and NAME were neither targets nor features, so it was removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
-- The neural hidden layer has 2 neural hidden layers, the first layer has 80 neurons and the second has 30 neurons. The activation function of the first and second hidden layers is "relu" and the activation function of the output layer is "sigmoid".
+- The neural network has 2 hidden layers, the first layer has 80 neurons and the second has 30 neurons. The activation function of the first and second hidden layers is "relu" and the activation function of the output layer is "sigmoid".
 
-- 75% of the target could not be reached by the model. According to my model, accuracy was 72%.
+- The model only achieve an accuracy of 73%, couldn't achieve the target model performance of 75%.
 
-- Eliminated the SPECIAL_CONSIDERATIONS, STATUS column and changed the activation function for the three layers to Tanh to see if it performs better than the relu function.
+- Change neurons in hidden layers, add additional hidden layer, change activation function in hidden layers.
+
+### Summary:
+
